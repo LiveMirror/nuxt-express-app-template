@@ -1,0 +1,32 @@
+{
+  "name": "cloudbb",
+  "version": "1.0.0",
+  "description": "My remarkable Nuxt.js project",
+  "author": "quazero",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "connect-mongo": "^2.0.2",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "helmet": "^3.15.0",
+    "mongoose": "^5.3.13",
+    "nuxt": "^2.0.0",
+    "vuetify": "^1.2.4",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}
